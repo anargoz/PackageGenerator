@@ -710,7 +710,7 @@ class GeneratorTest extends TestCase
     {
         $options = GeneratorOptionsTest::optionsInstance();
         $options
-            ->setOrigin(self::onlineWsdlBingPath())
+            ->setOrigin(self::onlineWsdlPayPalPath())
             ->setDestination(self::getTestDirectory())
             ->setSoapOptions([
                 AbstractSoapClientBase::WSDL_STREAM_CONTEXT => stream_context_create([

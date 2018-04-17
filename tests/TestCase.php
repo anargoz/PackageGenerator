@@ -83,6 +83,13 @@ abstract class TestCase extends PHPUnitFrameworkTestCase
     /**
      * @return string
      */
+    public static function onlineWsdlPayPalPath()
+    {
+        return 'https://www.paypalobjects.com/wsdl/PayPalSvc.wsdl';
+    }
+    /**
+     * @return string
+     */
     public static function wsdlEbayPath()
     {
         return __DIR__ . '/resources/ebaySvc.wsdl';
